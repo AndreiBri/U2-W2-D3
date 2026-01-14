@@ -1,0 +1,41 @@
+$paddings: (
+  "sm": 0.5rem,
+  "normal": 1rem,
+  "md": 1.5rem,
+  "lg": 2rem,
+  "xlg": 2.5rem,
+  "xxl": 3rem,
+);
+
+@each $name, $value in $paddings {
+  .padding-in-#{$name} {
+    padding-inline: $value;
+  }
+}
+
+@each $name, $value in $paddings {
+  .padding-bl-#{$name} {
+    padding-block: $value;
+  }
+}
+
+$margins: (
+  "sm": 0.5rem,
+  "normal": 1rem,
+  "md": 1.5rem,
+  "lg": 2rem,
+  "xlg": 2.5rem,
+  "xxl": 3rem,
+);
+
+@each $name, $value in $margins {
+  .margin-in-#{$name} {
+    margin-inline: $value;
+  }
+}
+
+@each $name, $value in $margins {
+  .margin-bl-#{$name} {
+    margin-block: $value;
+  }
+}

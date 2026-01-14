@@ -1,0 +1,47 @@
+nav {
+  @include navheader;
+}
+
+header {
+  background-color: $color-primary;
+}
+
+nav ul li {
+  color: $color-white;
+}
+
+.btn1 {
+  background-color: $color-btn1;
+}
+
+.btn2 {
+  background-color: $color-btn2;
+}
+
+.btn3 {
+  background-color: $color-btn3;
+}
+
+section {
+  display: flex;
+}
+
+section img {
+  max-width: 100%;
+  width: 100%;
+}
+
+div > div > button {
+  border-radius: 5px;
+  color: $text-color;
+}
+
+section > div > h1 {
+  @include title-big;
+  font-weight: bold;
+  color: $h1-color;
+}
+
+section > div > p {
+  color: $text-color;
+}

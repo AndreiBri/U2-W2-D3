@@ -1,0 +1,18 @@
+@mixin navheader {
+  display: flex;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  }
+}
+
+@mixin title-big {
+  font-size: $title-big;
+}
+
+@mixin imgall {
+  max-width: 100%;
+  width: 100%;
+}
