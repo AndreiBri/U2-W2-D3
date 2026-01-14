@@ -235,11 +235,11 @@ nav ul {
 }
 
 header {
-  background-color: #640fe5;
+  background-color: #640fc5;
 }
 
 nav ul li {
-  color: white;
+  color: #f4f4f4;
 }
 
 .btn1 {
@@ -256,11 +256,19 @@ nav ul li {
 
 section {
   display: flex;
+  justify-items: start;
+  align-items: center;
 }
 
-section img {
+section div {
+  width: 45%;
+}
+
+.imghero {
   max-width: 100%;
-  width: 100%;
+  position: relative;
+  top: 6rem;
+  width: 45%;
 }
 
 div > div > button {
@@ -269,8 +277,9 @@ div > div > button {
 }
 
 section > div > h1 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
+  color: hsl(268, 86%, 17%);
 }
 
 section > div > p {

@@ -7,7 +7,7 @@ header {
 }
 
 nav ul li {
-  color: $color-white;
+  color: $text-color;
 }
 
 .btn1 {
@@ -24,11 +24,16 @@ nav ul li {
 
 section {
   display: flex;
+  justify-items: start;
+  align-items: center;
 }
 
-section img {
-  max-width: 100%;
-  width: 100%;
+section div {
+  width: 45%;
+}
+
+.imghero {
+  @include imgall;
 }
 
 div > div > button {

@@ -14,5 +14,7 @@
 
 @mixin imgall {
   max-width: 100%;
-  width: 100%;
+  position: relative;
+  top: 6rem;
+  width: 45%;
 }
